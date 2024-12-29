@@ -226,14 +226,14 @@ body {
         width: 45%;
         aspect-ratio: 1 / 0.7376623376623377;
         background: center / 100% no-repeat url("./assets/images/bg-1440.png");
-
-        @media screen and (max-width: 1024px) {
-            display: none;
-        }
     }
 
     @media screen and (max-width: 1024px) {
         width: 100%;
+
+        &::after {
+            content: none;
+        }
     }
 }
 
