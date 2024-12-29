@@ -107,6 +107,7 @@ body {
     border-radius: var(--radius-200);
     color: var(--white);
     background-color: var(--black-100);
+    user-select: none;
 }
 
 .img {
